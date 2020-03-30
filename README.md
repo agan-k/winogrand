@@ -9,15 +9,31 @@ The app will be built using React library/framework and will feature responsive 
 
 HOME PAGE
 
-![](https://i.imgur.com/ivcwadvl.png)
+![](https://i.imgur.com/jEOqcMal.png)
 
 WORK - GALLERY
 
-![](https://i.imgur.com/QNNtbdsl.png)
+![](https://i.imgur.com/I6kAkXnl.png)
 
 WORK - DETAIL
 
-![](https://i.imgur.com/0M3F9lQl.png)
+![](https://i.imgur.com/h73cTvNl.png)
+
+ABOUT
+
+![](https://i.imgur.com/xlC2ysUl.png)
+
+PHONE
+
+![](https://i.imgur.com/XeFrvP8m.png)
+
+PHONE 1
+
+![](https://i.imgur.com/QJ0Gmslm.png)
+
+# Component Heirarchy
+
+![](https://i.imgur.com/GBkFswDl.png)
 
 # API
 
