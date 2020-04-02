@@ -3,6 +3,8 @@ import Work from "./components/Work"
 import Home from "./components/Home"
 import About from "./components/About"
 import Links from "./components/Links"
+
+
 import axios from 'axios'
 import {
         BrowserRouter as Router,
@@ -21,7 +23,7 @@ class App extends Component {
         }
 
         componentDidMount() {
-                axios.get('https://aggregator-data.artic.edu/api/v1/artworks/search?q=winogrand&limit=9').then((response) => {
+                axios.get('https://aggregator-data.artic.edu/api/v1/artworks/search?q=winogrand&limit=48').then((response) => {
                         this.setState({
                                 collection: response.data.data
                         })
