@@ -8,25 +8,24 @@ class Work extends Component {
                 super(props)
                 this.state = {
                         isShowing: false,
-                        workSelect: null
+                        workSelect: null,
+                        descSelect: null
                 }
         }
         handleSelect = (item) => {
                 this.setState({
                         isShowing: true,
-                        workSelect: item
+                        workSelect: item,
+                       
                 })
 
         }
-
         closeModal = () => {
                 this.setState({
                         isShowing: false
                 })
-                
+
         }
-
-
         render() {
 
                 //this image paramater is required endpoint for the iiif image distribution.
@@ -42,11 +41,8 @@ class Work extends Component {
                         <div className="work">
                                 <div className="modal-container">
                                         {/* guard operator */}
-                                        {this.state.isShowing && <Modal closeModal={this.closeModal} workDetail={this.state.workSelect} />}
-                                        
+                                        {this.state.isShowing && <Modal closeModal={this.closeModal} workDetail={this.state.workSelect} description={this.state.workSelect.alt_text}/>}      
                                 </div>
-
-
                                 <div className={`${this.state.isShowing ? "fade-out" : ""} image-gallery`}>
                                         {getData}
                                 </div>
