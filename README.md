@@ -31,10 +31,6 @@ PHONE 1
 
 ![](https://i.imgur.com/QJ0Gmslm.png)
 
-# Component Heirarchy
-
-![](https://i.imgur.com/GBkFswDl.png)
-
 # API
 
 Art Institute Of Chicago:
